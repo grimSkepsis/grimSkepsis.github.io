@@ -1,0 +1,61 @@
+
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  color: $main-font-color;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: $main-font-color;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0;
+
+}
+
+a {
+  font-family: 'Playfair Display', serif;
+}
+
+em {
+  color: $tertiary-color;
+  font-style: normal;
+}
+
+.splash-sub-header {
+  font-size: 1.3rem;
+}
+
+ul {
+  padding: 0;
+  li {
+    list-style: none;
+
+  }
+}
+
+.splash-header {
+  font-size: 4rem;
+  padding-top: 0;
+  color: white;
+}
+
+
+
+@media (min-width: 54.125em) {
+  .splash-header {
+    font-size: 11rem;
+  }
+  .splash-sub-header {
+    font-size: 5rem;
+  }
+  .splash-wrapper {
+    min-height: 100vh;
+  }
+}

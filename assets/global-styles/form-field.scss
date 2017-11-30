@@ -1,0 +1,19 @@
+
+input {
+  border: solid;
+  text-decoration: none;
+  padding: 1rem;
+  background: white;
+  color:black;
+}
+
+input[type="submit"], input[type="reset"] {
+  background: $secondary-color;
+  &:hover, &:focus {
+    background: lighten($secondary-color, 30%);
+  }
+}
+
+label {
+  display: block;
+}
